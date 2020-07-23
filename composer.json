@@ -1,0 +1,32 @@
+{
+    "name": "yi17310320725/hyperf-permission",
+    "description": "An authorization library that supports access control models like ACL, RBAC, ABAC in Hyperf.",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "yikang",
+            "email": "1115610574@qq.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "ext-swoole": ">=4.5",
+        "hyperf/db-connection": "^2.0",
+        "casbin/casbin": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hyperf\\Permission\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hyperf\\Permission\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "hyperf": {
+            "config": "Hyperf\\Permission\\ConfigProvider"
+        }
+    }
+}
