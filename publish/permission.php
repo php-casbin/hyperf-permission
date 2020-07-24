@@ -8,7 +8,7 @@ return [
         // Available Settings: "file", "text"
         'config_type' => 'file',
 
-        'config_file_path' => config_path('casbin-rbac-model.conf'),
+        'config_file_path' => __DIR__ . '/casbin-rbac-model.conf',
 
         'config_text' => '',
     ],
@@ -27,5 +27,10 @@ return [
 
         // Rule table name.
         'rules_table' => 'rules',
+    ],
+
+    'log' => [
+        // changes whether Lauthz will log messages to the Logger.
+        'enabled' => false,
     ],
 ];

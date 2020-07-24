@@ -6,8 +6,8 @@ namespace Hyperf\Permission\Adapters;
 
 use Casbin\Persist\AdapterHelper;
 use Casbin\Model\Model;
-use Casbin\Models\Rule;
 use Casbin\Persist\Adapter;
+use Hyperf\Permission\Models\Rule;
 
 class DatabaseAdapter implements Adapter
 {

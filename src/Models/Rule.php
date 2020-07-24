@@ -1,6 +1,6 @@
 <?php
 
-declare(strip_tags=1);
+declare(strict_types=1);
 
 namespace Hyperf\Permission\Models;
 
