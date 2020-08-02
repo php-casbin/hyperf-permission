@@ -1,5 +1,5 @@
 {
-    "name": "yi17310320725/hyperf-permission",
+    "name": "casbin/hyperf-permission",
     "description": "An authorization library that supports access control models like ACL, RBAC, ABAC in Hyperf.",
     "license": "Apache-2.0",
     "authors": [
