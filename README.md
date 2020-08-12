@@ -50,7 +50,7 @@ You can check if a user has a permission like this:
 
 ```php
 // to check if a user has permission
-if ($casbin->enforce('eve', 'articles', 'edit_torit')) {
+if ($casbin->enforce('eve', 'articles', 'edit')) {
   // permit eve to edit articles
 } else {
   // deny the request, show an error
