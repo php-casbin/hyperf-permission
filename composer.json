@@ -4,16 +4,20 @@
     "license": "Apache-2.0",
     "authors": [
         {
+            "name": "TechLee",
+            "email": "techlee@qq.com"
+        },
+        {
             "name": "yikang",
             "email": "1115610574@qq.com"
         }
     ],
     "require": {
-        "php": "^7.2",
+        "php": ">=7.2",
         "ext-swoole": ">=4.5",
         "hyperf/db-connection": "^2.0",
         "hyperf/config": "~2.0.0",
-        "casbin/casbin": "^2.2"
+        "casbin/casbin": "~3.21"
     },
     "autoload": {
         "psr-4": {
