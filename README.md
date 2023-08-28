@@ -8,13 +8,13 @@
 Require this package in the `composer.json` of your Hyperf project. This will download the package.
 
 ```shell
-$ composer require yi17310320725/hyperf-permission:dev-master -vvv
+$ composer require casbin/hyperf-permission -vvv
 ```
 
 To publish the config, run the vendor publish command:
 
 ```shell
-$ php bin/hyperf.php vendor:publish yi17310320725/hyperf-permission
+$ php bin/hyperf.php vendor:publish casbin/hyperf-permission
 ```
 
 This will create a new model config file named `config/autoload/casbin-rbac-model.conf`,  a new permission config file named `config/autoload/permission.php` and new migrate file named `2020_07_22_213202_create_rules_table.php`.
@@ -163,8 +163,8 @@ See [Casbin API](https://casbin.org/docs/en/management-api) for more APIs.
 
 You can contribute in one of three ways:
 
-1. File bug reports using the [issue tracker](https://github.com/yi17310320725/hyperf-authz/issues).
-2. Answer questions or fix bugs on the [issue tracker](https://github.com/yi17310320725/hyperf-authz/issues).
+1. File bug reports using the [[issue tracker](https://github.com/yi17310320725/hyperf-authz/issues)](https://github.com/php-casbin/hyperf-permission/issues).
+2. Answer questions or fix bugs on the [[issue tracker](https://github.com/yi17310320725/hyperf-authz/issues)](https://github.com/php-casbin/hyperf-permission/issues).
 3. Contribute new features or update the wiki.
 
 _The code contribution process is not very formal. You just need to make sure that you follow the PSR-0, PSR-1, and PSR-2 coding guidelines. Any new code contributions must be accompanied by unit tests where applicable._
